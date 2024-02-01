@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 3rem;
+  font-weight: 2rem;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  width: 95%;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
